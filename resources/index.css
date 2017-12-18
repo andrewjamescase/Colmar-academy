@@ -273,7 +273,7 @@ footer p #terms{
   float: right;
   margin-right: 24px;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 812px){
   .box1 .logo{
     display: none;
   }
