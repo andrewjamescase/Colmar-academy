@@ -1,0 +1,390 @@
+html{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+}
+.box1{
+  display: flex;
+  width: 100%;
+  height: 64px;
+  align-items: center;
+}
+.box1 .logo{
+  display: inline-flex;
+  margin-left: 24px;
+  height: 32px;
+  align-items: center;
+  width: 60%;
+  font-size: 1.5em;
+}
+.box1 p{
+  color: rgb(64, 64, 64);
+  font-weight: bold;
+}
+.academy{
+  color: silver;
+}
+nav{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 24px;
+  font-size: .8em;
+}
+.box1 .mobile{
+  display: none;
+}
+.box1 ul li{
+  display: inline-flex;
+  padding-left: 16px;
+  text-decoration: underline;
+}
+.box2{
+  display: flex;
+  background-color: gainsboro;
+}
+.box2 .container{
+  display: flex;
+  width: 60%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.box2 .container img{
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.box2 .words{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.box2 h2{
+  height: 84px;
+  font-size: 2.75em;
+  color: rgb(64, 64, 64);
+}
+.box2 p{
+  color: rgb(64, 64, 64);
+  font-size: 1.5em;
+}
+.box2 .start{
+	width: 300px;
+	text-align: center;
+	color: white;
+	background-color: rgb(64, 64, 64);
+	font-size: 1em;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.box3{
+  display: flex;
+}
+.box3 .half1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 60%;
+}
+.box3 .words{
+  margin-left: 24px;
+
+}
+.box3 h2{
+  font-size: 2em;
+  font-weight: bold;
+  width: 100%;
+}
+.box3 .half1 img{
+  width: 90%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.half2{
+  display: flex;
+  width: 40%;
+  margin-top: 24px;
+  border-left: 1px solid gainsboro;
+}
+#guest{
+  background-color: gainsboro;
+}
+.lbox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.lbox1{
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid gainsboro;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+.icontainer{
+  margin-right: 16px;
+  width: 35%;
+  overflow: hidden;
+}
+.icontainer img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.boxwords1{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.boxwords .read:hover,
+.box2 .start:hover{
+  color: Dodgerblue;
+}
+.box4{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.fourheader{
+  font-size: 32px;
+  text-align: center;
+}
+.mobile4{
+  display: none;
+}
+.sixcontain{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.libox{
+  width: 30%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 16px 32px 16px;
+  background-color: white;
+
+}
+.libox img{
+  max-width: 100%;
+  height: auto;
+}
+.sixcontain .words{
+  padding-left: 16px;
+  padding-bottom: 24px;
+  padding-top: 16px;
+
+}
+.sixcontain .head{
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+
+.box5{
+  width: 100%;
+  padding-bottom: 32px;
+  border-bottom: 1px solid gainsboro;
+}
+.fiveheader{
+  font-size: 32px;
+  text-align: center;
+}
+.halves{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-items: flex-start;
+}
+.box5 .h1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.box5 .h1 video{
+  width: 90%;
+  margin-bottom: 32px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.h2{
+  display: flex;
+  width: 40%;
+  height: auto;
+}
+.boxa{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.boxb{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.icontainera{
+  max-width: 35%;
+  overflow: hidden;
+  padding: 16px;
+}
+.icontainera img{
+  max-width: 100%;
+  display: block;
+}
+.boxwordsa{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.h1words{
+  padding-left: 24px;
+}
+#fisma{
+  background-color: gainsboro;
+}
+.box5mobile{
+  display: none;
+}
+footer p{
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+footer p #terms{
+  float: right;
+  margin-right: 24px;
+}
+@media only screen and (max-width: 480px){
+  .box1 .logo{
+    display: none;
+  }
+ .box1 .nav{
+   display: none;
+ }
+ .box1 .mobile{
+   display: block;
+   width: 100%;
+ }
+ .box1 .mobile ul {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 0px;
+   width: 100%;
+ }
+ .box2{
+   display: block;
+ }
+ .box2 .container{
+   width: 100%;
+   display: inline-block;
+   overflow: hidden;
+   padding: 0px;
+   margin-bottom: 32px;
+ }
+ .box2 .container img{
+   max-width: 100%;
+   height: auto;
+ }
+ .box2 .words{
+   margin-left: 16px;
+ }
+ .box2 h2{
+   font-size: 2em;
+   color: rgb(64, 64, 64);
+ }
+.box2 p{
+  font-size: 1.25em;
+}
+.box2 .start{
+	background-color: darkgrey;
+	margin-bottom: 32px;
+  width: 95%;
+}
+.box3 .half1{
+  display: none;
+}
+.box3 .half2{
+  width: 100%;
+  border-left: none;
+  border-bottom: 1px solid gainsboro;
+}
+.box3 .lbox1{
+  display: block;
+  border: none;
+}
+.box3 .icontainer{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 0px;
+  margin-right: 16px;
+}
+.box3 .icontainer img{
+  width: 95%;
+  height: 150px;
+}
+.box3 .boxwords{
+  margin-left: 16px;
+}
+#guest{
+  background: none;
+}
+.box4{
+  background: none;
+}
+.box4 h2{
+  font-size: 1em;
+}
+.box4 .sixcontain{
+  display: none;
+}
+.box4 .mobile4{
+  display: block;
+  width: 95%;
+}
+.box4 .button4{
+  margin: 0px 0px 8px 16px;
+  padding: 16px;
+  background-color: Gainsboro;
+}
+.box5 .halves{
+  display: none;
+}
+.box5 h2{
+  font-size: 1em;
+}
+.box5mobile{
+  display: block;
+}
+.box5mobile .mobilevideo{
+  width: 95%;
+}
+footer p{
+  font-size: .75em;
+  text-align: left;
+  margin: 16px 0px 16px 24px;
+}
+footer p #terms{
+  display: none;
+}
+}
